@@ -35,14 +35,16 @@ const StackPanel: React.FC<StackPanelProps> = ({
             {stack.map((tech) => (
               <button
                 key={tech.id}
-                onClick={() => onRemove(tech.id)}
                 className="flex items-center gap-2 border border-gray-200 rounded-lg px-3 py-2 text-left hover:bg-gray-50 hover:border-gray-300 transition-colors group"
               >
                 <img src={tech.icon} alt={tech.name} className="w-5 h-5" />
                 <span className="text-sm text-gray-800 flex-1">
                   {tech.name}
                 </span>
-                <span className="text-gray-300 group-hover:text-gray-500 text-xs">
+                <span
+                  onClick={() => onRemove(tech.id)}
+                  className="text-gray-300 group-hover:text-gray-500 text-xs"
+                >
                   ✕
                 </span>
               </button>
