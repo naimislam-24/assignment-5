@@ -3,7 +3,7 @@ import Banner from "../assets/banner-stack.png";
 export default function Hero() {
   return (
     <>
-      <div className="flex items-center justify-between gap-10 mt-20 container mx-auto px-6">
+      <div className="flex items-center justify-between gap-10 mt-20 container mx-auto">
         <div>
           <h1 className="text-6xl font-extrabold leading-tight">
             <span className="text-slate-900">Build Your Ideal</span>

@@ -31,7 +31,7 @@ const App: React.FC = () => {
       <Nav />
       <Hero />
       <div className="min-h-screen bg-gray-50 p-6">
-        <div className="flex gap-6 max-w-6xl mx-auto">
+        <div className="flex gap-6 container mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 flex-1">
             {technologies.map((tech) => (
               <TechCard
