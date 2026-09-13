@@ -7,7 +7,7 @@ export default function Nav() {
 
   return (
     <div className="sticky top-0 z-50 bg-white">
-      <div className="flex justify-between items-center container mx-auto mt-8 relative">
+      <div className="flex justify-between items-center container mx-auto pt-6 relative">
         <img src={Logo} alt="Logo Img" />
 
         <ul className="hidden md:flex gap-6 items-center">
