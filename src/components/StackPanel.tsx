@@ -13,10 +13,12 @@ const StackPanel: React.FC<StackPanelProps> = ({
 }) => {
   return (
     <div className="border border-dashed border-blue-300 rounded-xl p-5 w-64 shrink-0 self-start">
-      <div className="flex items-center justify-between mb-1">
+      <div className="flex justify-between mb-1 flex-col">
         <h3 className="font-semibold text-gray-900">Your Stack</h3>
         {stack.length > 0 && (
-          <span className="text-xs text-gray-400">{stack.length}</span>
+          <span className="text-xs text-gray-400">
+            {stack.length} Technology Selected
+          </span>
         )}
       </div>
 
