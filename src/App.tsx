@@ -30,8 +30,16 @@ const App: React.FC = () => {
     <>
       <Nav />
       <Hero />
-      <div className="min-h-screen bg-gray-50 p-6">
-        <div className="flex gap-6 container mx-auto">
+      <div className="min-h-screen bg-gray-50 p-6 mt-10">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-extrabold text-gray-900">
+            Explore the <span className="text-[#D91B7E]">Technologies</span>
+          </h2>
+          <p className="text-gray-500 mt-2">
+            Pick one technology per category to build your ideal stack.
+          </p>
+        </div>
+        <div className="flex gap-6 container mx-auto mt-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 flex-1">
             {technologies.map((tech) => (
               <TechCard
