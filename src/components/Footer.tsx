@@ -1,5 +1,3 @@
-import Logo from "../assets/logo-text.png";
-
 export default function Footer() {
   return (
     <>
@@ -8,15 +6,14 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1fr] gap-10">
             {/* Brand */}
             <div>
-              {/* <div className="flex items-center gap-2 mb-4">
+              <div className="flex items-center gap-2 mb-4">
                 <span className="w-7 h-7 flex items-center justify-center rounded-md bg-linear-to-br from-pink-500 to-purple-600 text-white text-xs font-bold">
                   DS
                 </span>
                 <span className="font-bold text-gray-900">
                   Dev <span className="text-pink-500">Stack</span>
                 </span>
-              </div> */}
-              <img src={Logo} alt="" />
+              </div>
               <p className="text-sm text-gray-500 leading-relaxed max-w-xs">
                 Curated tools, technologies, and resources for developers
                 building modern software.
