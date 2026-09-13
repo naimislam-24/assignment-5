@@ -11,7 +11,6 @@ export default function Nav() {
           <li>Projects</li>
           <li>About</li>
           <li>Contact</li>
-          <li>Contact</li>
         </ul>
         <div className="flex gap-6">
           <button className="">Sign In</button>
