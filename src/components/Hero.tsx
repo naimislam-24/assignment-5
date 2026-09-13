@@ -21,7 +21,7 @@ export default function Hero() {
             <button className="bg-linear-to-r from-orange-500 to-pink-500 py-2.5 px-5 text-white font-bold rounded-xl shadow-lg shadow-pink-200 hover:opacity-90 transition-opacity">
               Explore Technologies
             </button>
-            <button className="py-2.5 px-5 border border-gray-300 rounded-xl font-medium hover:bg-gray-50 transition-colors">
+            <button className="py-2.5 px-15 border border-gray-300 rounded-xl font-medium hover:bg-gray-50 transition-colors">
               Learn More
             </button>
           </div>
