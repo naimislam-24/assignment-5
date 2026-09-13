@@ -13,9 +13,10 @@ export default function Hero() {
             </span>
           </h1>
           <p className="text-[#475569] mt-4 text-lg">
-            Explore frontend, backend, database, and tooling options, compare
-            them side by side, and put together the stack that fits your next
-            project.
+            Explore frontend, backend, database, and tooling options, <br />
+            compare them side by side, and put together the stack that fits your
+            <br />
+            next project.
           </p>
           <div className="flex gap-4 mt-6">
             <button className="bg-linear-to-r from-orange-500 to-pink-500 py-2.5 px-5 text-white font-bold rounded-xl shadow-lg shadow-pink-200 hover:opacity-90 transition-opacity">
